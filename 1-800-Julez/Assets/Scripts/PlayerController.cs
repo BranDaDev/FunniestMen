@@ -25,7 +25,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+ 
         tr = GetComponent<TrailRenderer>();
 
     }
@@ -35,6 +35,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         if (isDashing)
         {
+            theRB.velocity = dashDir.normalized * dashPower;
             return;
         }
 
@@ -70,6 +71,7 @@ public class NewBehaviourScript : MonoBehaviour
     }
     private IEnumerator Dash()
     {
+        isGrounded = false;
         canDash = false;
         isDashing = true;
         tr.emitting = true;
@@ -85,13 +87,7 @@ public class NewBehaviourScript : MonoBehaviour
         theRB.gravityScale = gravity;
         isDashing = false;
         tr.emitting = false;
-        gravity = theRB.gravityScale;
-        theRB.velocity = new Vector2(transform.localScale.x * dashPower, transform.localScale.y * dashPower);
-        yield return new WaitForSeconds(dashTime);
-        theRB.gravityScale = gravity;
-        isDashing = false;
         yield return new WaitForSeconds(dashCooldown);
-        canDash = true;
     }
 }
    
