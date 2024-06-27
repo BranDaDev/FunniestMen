@@ -16,7 +16,7 @@ public class NewBehaviourScript : MonoBehaviour
     private bool canDash;
     private bool isDashing;
     private float dashPower = 46f;
-    private float dashTime = 0.1f;
+    private float dashTime = 0.15f;
     private Vector2 dashDir;
     private float dashCooldown = 1f;
 
