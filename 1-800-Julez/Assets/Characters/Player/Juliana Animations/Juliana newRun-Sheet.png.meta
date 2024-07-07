@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 9f4fc3709239ce14b9199d965cc291bd
+guid: 9b4726b132403bf40b8dcf1e1f5c8d79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -30574908044146689
-    second: Juliana Run-Sheet 1_0
+      213: -3758677077020258562
+    second: Juliana newRun-Sheet_0
   - first:
-      213: -1675663560176735658
-    second: Juliana Run-Sheet 1_1
+      213: 7155440205465878340
+    second: Juliana newRun-Sheet_1
   - first:
-      213: 1942317462629168635
-    second: Juliana Run-Sheet 1_2
+      213: 2455682124516993407
+    second: Juliana newRun-Sheet_2
   - first:
-      213: 2816064174140347115
-    second: Juliana Run-Sheet 1_3
+      213: -1051678435943991273
+    second: Juliana newRun-Sheet_3
   - first:
-      213: 1870910730404996448
-    second: Juliana Run-Sheet 1_4
+      213: -8156011200582079860
+    second: Juliana newRun-Sheet_4
   - first:
-      213: 5005218417822252702
-    second: Juliana Run-Sheet 1_5
+      213: -3479397143749352632
+    second: Juliana newRun-Sheet_5
   - first:
-      213: 296659476442177090
-    second: Juliana Run-Sheet 1_6
+      213: 9157995906135547821
+    second: Juliana newRun-Sheet_6
   - first:
-      213: 8361386590941843128
-    second: Juliana Run-Sheet 1_7
+      213: 3857937639923569815
+    second: Juliana newRun-Sheet_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Juliana Run-Sheet 1_0
+      name: Juliana newRun-Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
+        x: 5
+        y: 0
         width: 21
-        height: 45
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,17 +135,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff70dfa7840639ff0800000000000000
-      internalID: -30574908044146689
+      spriteID: efecdcedc1f76dbc0800000000000000
+      internalID: -3758677077020258562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Juliana Run-Sheet 1_1
+      name: Juliana newRun-Sheet_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 39
         y: 0
         width: 32
         height: 46
@@ -156,18 +156,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65a699cbed8deb8e0800000000000000
-      internalID: -1675663560176735658
+      spriteID: 44f775aa4fa3d4360800000000000000
+      internalID: 7155440205465878340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Juliana Run-Sheet 1_2
+      name: Juliana newRun-Sheet_2
       rect:
         serializedVersion: 2
-        x: 50
-        y: 4
+        x: 79
+        y: 1
         width: 34
         height: 42
       alignment: 0
@@ -177,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf5bc01017f74fa10800000000000000
-      internalID: 1942317462629168635
+      spriteID: f79ac19a1e5541220800000000000000
+      internalID: 2455682124516993407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Juliana Run-Sheet 1_3
+      name: Juliana newRun-Sheet_3
       rect:
         serializedVersion: 2
-        x: 82
-        y: 1
+        x: 125
+        y: 0
         width: 29
-        height: 45
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +198,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be2d65c327ba41720800000000000000
-      internalID: 2816064174140347115
+      spriteID: 718be97d800b761f0800000000000000
+      internalID: -1051678435943991273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Juliana Run-Sheet 1_4
+      name: Juliana newRun-Sheet_4
       rect:
         serializedVersion: 2
-        x: 109
-        y: 4
+        x: 172
+        y: 0
         width: 22
-        height: 42
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,39 +219,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 065a144956fc6f910800000000000000
-      internalID: 1870910730404996448
+      spriteID: c8aa235860700de80800000000000000
+      internalID: -8156011200582079860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Juliana Run-Sheet 1_5
+      name: Juliana newRun-Sheet_5
       rect:
         serializedVersion: 2
-        x: 129
-        y: 3
-        width: 30
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9eb989d1ab167540800000000000000
-      internalID: 5005218417822252702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Juliana Run-Sheet 1_6
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 4
+        x: 208
+        y: 0
         width: 30
         height: 42
       alignment: 0
@@ -261,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24ed698d832fd1400800000000000000
-      internalID: 296659476442177090
+      spriteID: 843af4e7bb2b6bfc0800000000000000
+      internalID: -3479397143749352632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Juliana Run-Sheet 1_7
+      name: Juliana newRun-Sheet_6
       rect:
         serializedVersion: 2
-        x: 185
-        y: 3
-        width: 26
-        height: 43
+        x: 250
+        y: 2
+        width: 30
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,8 +261,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8be8dcecdcc990470800000000000000
-      internalID: 8361386590941843128
+      spriteID: dafd0b761ccb71f70800000000000000
+      internalID: 9157995906135547821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Juliana newRun-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794d041e7d52a8530800000000000000
+      internalID: 3857937639923569815
       vertices: []
       indices: 
       edges: []
@@ -299,14 +299,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Juliana Run-Sheet 1_0: -30574908044146689
-      Juliana Run-Sheet 1_1: -1675663560176735658
-      Juliana Run-Sheet 1_2: 1942317462629168635
-      Juliana Run-Sheet 1_3: 2816064174140347115
-      Juliana Run-Sheet 1_4: 1870910730404996448
-      Juliana Run-Sheet 1_5: 5005218417822252702
-      Juliana Run-Sheet 1_6: 296659476442177090
-      Juliana Run-Sheet 1_7: 8361386590941843128
+      Juliana newRun-Sheet_0: -3758677077020258562
+      Juliana newRun-Sheet_1: 7155440205465878340
+      Juliana newRun-Sheet_2: 2455682124516993407
+      Juliana newRun-Sheet_3: -1051678435943991273
+      Juliana newRun-Sheet_4: -8156011200582079860
+      Juliana newRun-Sheet_5: -3479397143749352632
+      Juliana newRun-Sheet_6: 9157995906135547821
+      Juliana newRun-Sheet_7: 3857937639923569815
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
