@@ -22,10 +22,16 @@ public class NewBehaviourScript : MonoBehaviour
 
     public Transform groundCheckPoint;
     public LayerMask whatIsGround;
+    private Animator anim;
+    private SpriteRenderer theSR;
+
     // Start is called before the first frame update
     void Start()
     {
  
+        anim = GetComponent<Animator>();
+        theSR = GetComponent<SpriteRenderer>();
+
         tr = GetComponent<TrailRenderer>();
 
     }
@@ -68,6 +74,17 @@ public class NewBehaviourScript : MonoBehaviour
         {
             StartCoroutine(Dash());
         }
+
+        if(theRB.velocity.x < 0)
+        {
+        theSR.flipX = true;
+        } else if(theRB.velocity.x > 0)
+        {
+            theSR.flipX = false;
+        }
+
+        anim.SetFloat("moveSpeed", Mathf.Abs(theRB.velocity.x));
+        anim.SetBool("isGrounded", isGrounded);
     }
     private IEnumerator Dash()
     {
