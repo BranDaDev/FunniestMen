@@ -109,12 +109,12 @@ TextureImporter:
       name: Idle Juliana-Sheet_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
+        x: 2
+        y: 2
         width: 18
-        height: 48
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,12 +130,12 @@ TextureImporter:
       name: Idle Juliana-Sheet_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 0
+        x: 34
+        y: 2
         width: 18
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,12 +151,12 @@ TextureImporter:
       name: Idle Juliana-Sheet_2
       rect:
         serializedVersion: 2
-        x: 71
-        y: 0
-        width: 14
+        x: 67
+        y: 2
+        width: 16
         height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -171,7 +171,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bff869e9e82b7754586d79486308011e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
