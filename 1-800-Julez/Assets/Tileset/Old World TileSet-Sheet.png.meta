@@ -112,10 +112,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3df34b079e682a64a92a9aece7f9d9f5
-      internalID: -1282720686
+      spriteID: efc98eeb7e49e4e70800000000000000
+      internalID: 9101375620023622910
       vertices: []
       indices: 
       edges: []
@@ -135,8 +135,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fcf48e09d1b19d489d91d9c55f6344e
-      internalID: -788103592
+      spriteID: e87704f9bb167d646856d0364742d69e
+      internalID: 82679191
       vertices: []
       indices: 
       edges: []
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f371666aeb8cde4c90ea6ab1ab42bea
-      internalID: -1483515137
+      spriteID: 24d2b8dd1c2c30345ae5695c5d63a63d
+      internalID: -815806361
       vertices: []
       indices: 
       edges: []
@@ -177,8 +177,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4e2a87751288fc43b0195f015f7de27
-      internalID: -1447623300
+      spriteID: 5c58d8e5600bec64d8309d769394a274
+      internalID: 1428527847
       vertices: []
       indices: 
       edges: []
@@ -198,8 +198,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06e39c7412f04334e812f3ce28f7c3b8
-      internalID: 236124389
+      spriteID: 3eb875f3de65e6a488bf6e8eaa9f2adc
+      internalID: 1652044232
       vertices: []
       indices: 
       edges: []
@@ -219,8 +219,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 594b1821934d39f4da000ca011c190d4
-      internalID: 1553613040
+      spriteID: 9539859e8d1dc50498e0ebfb0ce742fa
+      internalID: -1154683728
       vertices: []
       indices: 
       edges: []
@@ -240,8 +240,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8806465482c91745b4e82088adbe091
-      internalID: 1216163713
+      spriteID: 1328c50492e09f746a763dec61d2284d
+      internalID: -61404436
       vertices: []
       indices: 
       edges: []
@@ -261,8 +261,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a451b026312818946b38d9ce88413c2e
-      internalID: -2094618713
+      spriteID: 1d830c64e83bec74492cff649a1c957c
+      internalID: -2022470610
       vertices: []
       indices: 
       edges: []
@@ -282,8 +282,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 126c42d3ff6808f439395224dbe3b05a
-      internalID: -1419210280
+      spriteID: d48cb6ffc45d88148af8df836bc355eb
+      internalID: 1511401219
       vertices: []
       indices: 
       edges: []
@@ -303,8 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 396d89f3257d5344398ab58a7f203903
-      internalID: 1464558397
+      spriteID: 811f333012dc8f348956e60b806c778a
+      internalID: 418957873
       vertices: []
       indices: 
       edges: []
@@ -312,7 +312,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9ba3c5477bbd5cf4ab43740d74ce83a6
+    spriteID: fde90527a4bbc794cae8641be19aad28
     internalID: 0
     vertices: []
     indices: 
@@ -320,16 +320,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Old World TileSet-Sheet_0: -1282720686
-      Old World TileSet-Sheet_1: -788103592
-      Old World TileSet-Sheet_2: -1483515137
-      Old World TileSet-Sheet_3: -1447623300
-      Old World TileSet-Sheet_4: 236124389
-      Old World TileSet-Sheet_5: 1553613040
-      Old World TileSet-Sheet_6: 1216163713
-      Old World TileSet-Sheet_7: -2094618713
-      Old World TileSet-Sheet_8: -1419210280
-      Old World TileSet-Sheet_9: 1464558397
+      Old World TileSet-Sheet_0: 9101375620023622910
+      Old World TileSet-Sheet_1: 82679191
+      Old World TileSet-Sheet_2: -815806361
+      Old World TileSet-Sheet_3: 1428527847
+      Old World TileSet-Sheet_4: 1652044232
+      Old World TileSet-Sheet_5: -1154683728
+      Old World TileSet-Sheet_6: -61404436
+      Old World TileSet-Sheet_7: -2022470610
+      Old World TileSet-Sheet_8: 1511401219
+      Old World TileSet-Sheet_9: 418957873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
