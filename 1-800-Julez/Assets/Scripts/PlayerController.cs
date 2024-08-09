@@ -12,6 +12,8 @@ public class NewBehaviourScript : MonoBehaviour
     public float jumpforce;
     private bool isGrounded;
     private bool canDoubleJump;
+    private float coyoteTime = 0.1f;
+    private float coyoteTimeCounter;
 
     private bool canDash;
     private bool isDashing;
@@ -48,21 +50,26 @@ public class NewBehaviourScript : MonoBehaviour
         theRB.velocity = new Vector2(moveSpeed * Input.GetAxis("Horizontal"), theRB.velocity.y);
         isGrounded = Physics2D.OverlapCircle(groundCheckPoint.position, .2f, whatIsGround);
 
-        if (isGrounded == true)
+        if (isGrounded)
         {
             canDoubleJump = true;
             canDash = true;
+            coyoteTimeCounter = coyoteTime;
+        } 
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
         }
 
         if (Input.GetButtonDown("Jump"))
         {
-            if (isGrounded)
+            if (coyoteTimeCounter > 0f)
             {
                 theRB.velocity = new Vector2(theRB.velocity.x, jumpforce);
             }
 
             else
-            {
+            {      
                 if (canDoubleJump)
                 {
                     theRB.velocity = new Vector2(theRB.velocity.x, jumpforce);
@@ -70,6 +77,13 @@ public class NewBehaviourScript : MonoBehaviour
                 }
             }
         }
+
+        if (Input.GetButtonUp("Jump") && theRB.velocity.y > 0f) 
+        {
+            theRB.velocity = new Vector2(theRB.velocity.x, theRB.velocity.y * 0.5f);
+            coyoteTimeCounter = 0f;
+        }
+
         if (Input.GetButtonDown("Dash") && canDash)
         {
             StartCoroutine(Dash());
