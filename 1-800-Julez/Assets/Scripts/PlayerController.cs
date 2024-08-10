@@ -14,6 +14,8 @@ public class NewBehaviourScript : MonoBehaviour
     private bool canDoubleJump;
     private float coyoteTime = 0.1f;
     private float coyoteTimeCounter;
+    private float jumpBufferTime = 0.6f;
+    private float jumpBufferCounter; 
 
     private bool canDash;
     private bool isDashing;
@@ -63,19 +65,24 @@ public class NewBehaviourScript : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            if (coyoteTimeCounter > 0f)
+            jumpBufferCounter = jumpBufferTime;
+            if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f)
             {
                 theRB.velocity = new Vector2(theRB.velocity.x, jumpforce);
+                jumpBufferCounter = 0f;
             }
-
             else
-            {      
+            {
                 if (canDoubleJump)
                 {
                     theRB.velocity = new Vector2(theRB.velocity.x, jumpforce);
                     canDoubleJump = false;
                 }
             }
+        }
+        else 
+        {
+            jumpBufferCounter -= Time.deltaTime;
         }
 
         if (Input.GetButtonUp("Jump") && theRB.velocity.y > 0f) 
