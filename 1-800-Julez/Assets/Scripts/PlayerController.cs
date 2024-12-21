@@ -25,9 +25,16 @@ public class NewBehaviourScript : MonoBehaviour
     private Animator anim;
     private SpriteRenderer theSR;
 
+    //Health 
+    public int MaxBattery = 100;
+    public int currentBattery;
+    public Healthbar = HealthBar;
+
     // Start is called before the first frame update
     void Start()
     {
+        currentBattery = MaxBattery;
+        healthBar.SetMaxHealth(MaxBattery);
  
         anim = GetComponent<Animator>();
         theSR = GetComponent<SpriteRenderer>();
@@ -105,6 +112,10 @@ public class NewBehaviourScript : MonoBehaviour
         isDashing = false;
         tr.emitting = false;
         yield return new WaitForSeconds(dashCooldown);
+    } 
+    void TakeDamage(int damage)
+    {
+        currentBattery -= damage;
     }
 }
    
