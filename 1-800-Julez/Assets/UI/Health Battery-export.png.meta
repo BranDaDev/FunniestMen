@@ -182,7 +182,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Health Battery-export_0: 3693874455448972100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
