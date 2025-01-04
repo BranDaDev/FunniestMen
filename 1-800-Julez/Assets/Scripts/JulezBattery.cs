@@ -14,6 +14,10 @@ public class JulezBattery : MonoBehaviour
 
     public Image PowerBar;
 
+    public float invincibleLength;
+
+    private float invincibleCounter;
+
     private void Awake()
     {
         instance = this; 
@@ -30,18 +34,29 @@ public class JulezBattery : MonoBehaviour
     void Update()
     {
         PowerBar.fillAmount = Mathf.Clamp(currentBattery / maxBattery, 0, 1);
+
+        if (invincibleCounter > 0)
+        {
+            invincibleCounter -= Time.deltaTime;
+        }
     }
 
     public void DealDamage()
     {
-        currentBattery -= 1;
-
-        if(currentBattery <= 0)
+        if (invincibleCounter <= 0)
         {
-            gameObject.SetActive(false);
+            currentBattery -= 1;
+
+            if (currentBattery <= 0)
+            {
+                gameObject.SetActive(false);
+
+            } else
+            {
+                invincibleCounter = invincibleLength;
+            }
 
         }
-
     }
 
 }
