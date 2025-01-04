@@ -8,9 +8,9 @@ public class JulezBattery : MonoBehaviour
 
     public static JulezBattery instance;
 
-    public static int number;
+    public static float number;
 
-    public int currentBattery, maxBattery;
+    public float currentBattery, maxBattery;
 
     public Image PowerBar;
 
