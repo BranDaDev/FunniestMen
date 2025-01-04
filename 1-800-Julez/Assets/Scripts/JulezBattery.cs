@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class JulezBattery : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class JulezBattery : MonoBehaviour
     public static int number;
 
     public int currentBattery, maxBattery;
+
+    public Image PowerBar;
 
     private void Awake()
     {
@@ -26,7 +29,7 @@ public class JulezBattery : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        PowerBar.fillAmount = Mathf.Clamp(currentBattery / maxBattery, 0, 1);
     }
 
     public void DealDamage()
